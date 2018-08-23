@@ -1,0 +1,29 @@
+//
+//  ZhiHuDaily.pch
+//  ZhiHuDaily
+//
+//  Created by 洪鹏宇 on 16/2/1.
+//  Copyright © 2016年 洪鹏宇. All rights reserved.
+//
+
+#ifndef ZhiHuDaily_pch
+#define ZhiHuDaily_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "BaseViewController.h"
+#import "AppDelegate.h"
+#import "NetOperation.h"
+#import "UIView+Extension.h"
+#import <Masonry/Masonry.h>
+#import <AFNetworking/AFNetworking.h>
+#import <JSONModel/JSONModel.h>
+
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kScreenBounds [UIScreen mainScreen].bounds
+
+#define kBaseURL @"https://news-at.zhihu.com/api/7/"
+
+#endif /* ZhiHuDaily_pch */

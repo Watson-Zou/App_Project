@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7984159BA6F617810980F5BB /* libPods-MFSport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E2035A6FAA89D2CDD227C5 /* libPods-MFSport.a */; };
+		B350E1A91DD49E7E00D457FA /* MFSportTrackingLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B350E1A81DD49E7E00D457FA /* MFSportTrackingLineModel.m */; };
+		B350E1AF1DD4A89200D457FA /* MFSportPolylineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B350E1AE1DD4A89200D457FA /* MFSportPolylineModel.m */; };
+		B3591A0A1DD9F71100638FE1 /* MFSportGPSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3591A091DD9F71100638FE1 /* MFSportGPSButton.m */; };
+		B35E7D2D1DD71FA6001CD3BD /* MFCircleAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B35E7D2C1DD71FA6001CD3BD /* MFCircleAnimator.m */; };
+		B35E7D301DD76FC8001CD3BD /* MFSportMapEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B35E7D2F1DD76FC8001CD3BD /* MFSportMapEffectView.m */; };
+		B370B8601DD3595A0022F54E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B370B85F1DD3595A0022F54E /* main.m */; };
+		B370B8631DD3595A0022F54E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B370B8621DD3595A0022F54E /* AppDelegate.m */; };
+		B370B86B1DD3595A0022F54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B370B86A1DD3595A0022F54E /* Assets.xcassets */; };
+		B370B86E1DD3595A0022F54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B370B86C1DD3595A0022F54E /* LaunchScreen.storyboard */; };
+		B370B8811DD35F470022F54E /* MFSportMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B370B8801DD35F470022F54E /* MFSportMainViewController.m */; };
+		B370B8AB1DD3691E0022F54E /* MFSportSportingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B370B8AA1DD3691E0022F54E /* MFSportSportingViewController.m */; };
+		B370B8AE1DD369840022F54E /* MFSportTrackingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B370B8AD1DD369840022F54E /* MFSportTrackingModel.m */; };
+		B370B8B11DD36E1A0022F54E /* MFSportMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B370B8B01DD36E1A0022F54E /* MFSportMapViewController.m */; };
+		B371FC301DDDE66200BA390D /* voice.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B371FC2F1DDDE66200BA390D /* voice.bundle */; };
+		B38095781DDC75120022CE5D /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B38095771DDC75120022CE5D /* UIColor+CZAddition.m */; };
+		B380957D1DDC9A960022CE5D /* MFSportSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B380957C1DDC9A960022CE5D /* MFSportSpeaker.m */; };
+		B39298AE1DDB325800065DE9 /* MFSportSportingDateShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B39298AD1DDB325800065DE9 /* MFSportSportingDateShowView.m */; };
+		B39298B11DDB415100065DE9 /* MFSportSportingControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B39298B01DDB415100065DE9 /* MFSportSportingControlView.m */; };
+		B399A3FE1DD8AA8B001C5369 /* DINCond-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B399A3FD1DD8AA8B001C5369 /* DINCond-Bold.otf */; };
+		B399A4011DD8C8E6001C5369 /* MFSportPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B399A4001DD8C8E6001C5369 /* MFSportPopoverViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DE3C688E1F9B67BDFD6CC3A /* Pods-MFSport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFSport/Pods-MFSport.debug.xcconfig"; sourceTree = "<group>"; };
+		9D35365E72552F702BDDAB7C /* Pods-MFSport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSport.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFSport/Pods-MFSport.release.xcconfig"; sourceTree = "<group>"; };
+		B350E1A71DD49E7E00D457FA /* MFSportTrackingLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportTrackingLineModel.h; sourceTree = "<group>"; };
+		B350E1A81DD49E7E00D457FA /* MFSportTrackingLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportTrackingLineModel.m; sourceTree = "<group>"; };
+		B350E1AD1DD4A89200D457FA /* MFSportPolylineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportPolylineModel.h; sourceTree = "<group>"; };
+		B350E1AE1DD4A89200D457FA /* MFSportPolylineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportPolylineModel.m; sourceTree = "<group>"; };
+		B3591A081DD9F71100638FE1 /* MFSportGPSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportGPSButton.h; sourceTree = "<group>"; };
+		B3591A091DD9F71100638FE1 /* MFSportGPSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportGPSButton.m; sourceTree = "<group>"; };
+		B35E7D2B1DD71FA6001CD3BD /* MFCircleAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCircleAnimator.h; sourceTree = "<group>"; };
+		B35E7D2C1DD71FA6001CD3BD /* MFCircleAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCircleAnimator.m; sourceTree = "<group>"; };
+		B35E7D2E1DD76FC8001CD3BD /* MFSportMapEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportMapEffectView.h; sourceTree = "<group>"; };
+		B35E7D2F1DD76FC8001CD3BD /* MFSportMapEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportMapEffectView.m; sourceTree = "<group>"; };
+		B370B85B1DD3595A0022F54E /* MFSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B370B85F1DD3595A0022F54E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B370B8611DD3595A0022F54E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B370B8621DD3595A0022F54E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B370B86A1DD3595A0022F54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B370B86D1DD3595A0022F54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B370B86F1DD3595A0022F54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B370B87F1DD35F470022F54E /* MFSportMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportMainViewController.h; sourceTree = "<group>"; };
+		B370B8801DD35F470022F54E /* MFSportMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportMainViewController.m; sourceTree = "<group>"; };
+		B370B8A91DD3691E0022F54E /* MFSportSportingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportSportingViewController.h; sourceTree = "<group>"; };
+		B370B8AA1DD3691E0022F54E /* MFSportSportingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportSportingViewController.m; sourceTree = "<group>"; };
+		B370B8AC1DD369840022F54E /* MFSportTrackingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportTrackingModel.h; sourceTree = "<group>"; };
+		B370B8AD1DD369840022F54E /* MFSportTrackingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportTrackingModel.m; sourceTree = "<group>"; };
+		B370B8AF1DD36E1A0022F54E /* MFSportMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportMapViewController.h; sourceTree = "<group>"; };
+		B370B8B01DD36E1A0022F54E /* MFSportMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportMapViewController.m; sourceTree = "<group>"; };
+		B371FC2F1DDDE66200BA390D /* voice.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = voice.bundle; sourceTree = "<group>"; };
+		B38095751DDC75120022CE5D /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		B38095761DDC75120022CE5D /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		B38095771DDC75120022CE5D /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		B380957B1DDC9A960022CE5D /* MFSportSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportSpeaker.h; sourceTree = "<group>"; };
+		B380957C1DDC9A960022CE5D /* MFSportSpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportSpeaker.m; sourceTree = "<group>"; };
+		B39298AC1DDB325800065DE9 /* MFSportSportingDateShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportSportingDateShowView.h; sourceTree = "<group>"; };
+		B39298AD1DDB325800065DE9 /* MFSportSportingDateShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportSportingDateShowView.m; sourceTree = "<group>"; };
+		B39298AF1DDB415100065DE9 /* MFSportSportingControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportSportingControlView.h; sourceTree = "<group>"; };
+		B39298B01DDB415100065DE9 /* MFSportSportingControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportSportingControlView.m; sourceTree = "<group>"; };
+		B399A3FD1DD8AA8B001C5369 /* DINCond-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DINCond-Bold.otf"; path = "../DINCond-Bold.otf"; sourceTree = "<group>"; };
+		B399A3FF1DD8C8E6001C5369 /* MFSportPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSportPopoverViewController.h; sourceTree = "<group>"; };
+		B399A4001DD8C8E6001C5369 /* MFSportPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSportPopoverViewController.m; sourceTree = "<group>"; };
+		C7E2035A6FAA89D2CDD227C5 /* libPods-MFSport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MFSport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B370B8581DD3595A0022F54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7984159BA6F617810980F5BB /* libPods-MFSport.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57A3CCEF264A851C287B4F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7E2035A6FAA89D2CDD227C5 /* libPods-MFSport.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B35E7D291DD71F6B001CD3BD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B38095741DDC75120022CE5D /* Additions */,
+				B35E7D2A1DD71F92001CD3BD /* MFAnimator */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B35E7D2A1DD71F92001CD3BD /* MFAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				B35E7D2B1DD71FA6001CD3BD /* MFCircleAnimator.h */,
+				B35E7D2C1DD71FA6001CD3BD /* MFCircleAnimator.m */,
+			);
+			path = MFAnimator;
+			sourceTree = "<group>";
+		};
+		B370B8521DD3595A0022F54E = {
+			isa = PBXGroup;
+			children = (
+				B370B85D1DD3595A0022F54E /* MFSport */,
+				B370B85C1DD3595A0022F54E /* Products */,
+				FAA968C5710AA49CA64D38D1 /* Pods */,
+				57A3CCEF264A851C287B4F5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B370B85C1DD3595A0022F54E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B370B85B1DD3595A0022F54E /* MFSport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B370B85D1DD3595A0022F54E /* MFSport */ = {
+			isa = PBXGroup;
+			children = (
+				B370B87A1DD35F040022F54E /* Sport */,
+				B370B8611DD3595A0022F54E /* AppDelegate.h */,
+				B370B8621DD3595A0022F54E /* AppDelegate.m */,
+				B370B86A1DD3595A0022F54E /* Assets.xcassets */,
+				B370B86C1DD3595A0022F54E /* LaunchScreen.storyboard */,
+				B370B86F1DD3595A0022F54E /* Info.plist */,
+				B371FC2F1DDDE66200BA390D /* voice.bundle */,
+				B370B85E1DD3595A0022F54E /* Supporting Files */,
+			);
+			path = MFSport;
+			sourceTree = "<group>";
+		};
+		B370B85E1DD3595A0022F54E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B399A3FB1DD8AA73001C5369 /* Font */,
+				B370B85F1DD3595A0022F54E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B370B87A1DD35F040022F54E /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				B35E7D291DD71F6B001CD3BD /* Tools */,
+				B370B87B1DD35F040022F54E /* Controllers */,
+				B370B87E1DD35F040022F54E /* Views */,
+				B370B87C1DD35F040022F54E /* Models */,
+			);
+			path = Sport;
+			sourceTree = "<group>";
+		};
+		B370B87B1DD35F040022F54E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B370B87F1DD35F470022F54E /* MFSportMainViewController.h */,
+				B370B8801DD35F470022F54E /* MFSportMainViewController.m */,
+				B370B8A91DD3691E0022F54E /* MFSportSportingViewController.h */,
+				B370B8AA1DD3691E0022F54E /* MFSportSportingViewController.m */,
+				B38095791DDC79F60022CE5D /* 地图控制器 */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B370B87C1DD35F040022F54E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B370B8AC1DD369840022F54E /* MFSportTrackingModel.h */,
+				B370B8AD1DD369840022F54E /* MFSportTrackingModel.m */,
+				B380957B1DDC9A960022CE5D /* MFSportSpeaker.h */,
+				B380957C1DDC9A960022CE5D /* MFSportSpeaker.m */,
+				B380957A1DDC9A690022CE5D /* 线条模型 */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B370B87E1DD35F040022F54E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B35E7D2E1DD76FC8001CD3BD /* MFSportMapEffectView.h */,
+				B35E7D2F1DD76FC8001CD3BD /* MFSportMapEffectView.m */,
+				B3591A081DD9F71100638FE1 /* MFSportGPSButton.h */,
+				B3591A091DD9F71100638FE1 /* MFSportGPSButton.m */,
+				B39298AC1DDB325800065DE9 /* MFSportSportingDateShowView.h */,
+				B39298AD1DDB325800065DE9 /* MFSportSportingDateShowView.m */,
+				B39298AF1DDB415100065DE9 /* MFSportSportingControlView.h */,
+				B39298B01DDB415100065DE9 /* MFSportSportingControlView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B38095741DDC75120022CE5D /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B38095751DDC75120022CE5D /* CZAdditions.h */,
+				B38095761DDC75120022CE5D /* UIColor+CZAddition.h */,
+				B38095771DDC75120022CE5D /* UIColor+CZAddition.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		B38095791DDC79F60022CE5D /* 地图控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				B370B8AF1DD36E1A0022F54E /* MFSportMapViewController.h */,
+				B370B8B01DD36E1A0022F54E /* MFSportMapViewController.m */,
+				B399A3FF1DD8C8E6001C5369 /* MFSportPopoverViewController.h */,
+				B399A4001DD8C8E6001C5369 /* MFSportPopoverViewController.m */,
+			);
+			name = "地图控制器";
+			sourceTree = "<group>";
+		};
+		B380957A1DDC9A690022CE5D /* 线条模型 */ = {
+			isa = PBXGroup;
+			children = (
+				B350E1A71DD49E7E00D457FA /* MFSportTrackingLineModel.h */,
+				B350E1A81DD49E7E00D457FA /* MFSportTrackingLineModel.m */,
+				B350E1AD1DD4A89200D457FA /* MFSportPolylineModel.h */,
+				B350E1AE1DD4A89200D457FA /* MFSportPolylineModel.m */,
+			);
+			name = "线条模型";
+			sourceTree = "<group>";
+		};
+		B399A3FB1DD8AA73001C5369 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B399A3FD1DD8AA8B001C5369 /* DINCond-Bold.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FAA968C5710AA49CA64D38D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DE3C688E1F9B67BDFD6CC3A /* Pods-MFSport.debug.xcconfig */,
+				9D35365E72552F702BDDAB7C /* Pods-MFSport.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B370B85A1DD3595A0022F54E /* MFSport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B370B8721DD3595A0022F54E /* Build configuration list for PBXNativeTarget "MFSport" */;
+			buildPhases = (
+				D229F338A5867EE9EE79EA7C /* [CP] Check Pods Manifest.lock */,
+				B370B8571DD3595A0022F54E /* Sources */,
+				B370B8581DD3595A0022F54E /* Frameworks */,
+				B370B8591DD3595A0022F54E /* Resources */,
+				364861DC251F1DAFBAE270A8 /* [CP] Embed Pods Frameworks */,
+				8FD83BC4C90C6A3CE2313692 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFSport;
+			productName = MFSport;
+			productReference = B370B85B1DD3595A0022F54E /* MFSport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B370B8531DD3595A0022F54E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MFSport;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "彭作青";
+				TargetAttributes = {
+					B370B85A1DD3595A0022F54E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VQ9CJ2PL7T;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B370B8561DD3595A0022F54E /* Build configuration list for PBXProject "MFSport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B370B8521DD3595A0022F54E;
+			productRefGroup = B370B85C1DD3595A0022F54E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B370B85A1DD3595A0022F54E /* MFSport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B370B8591DD3595A0022F54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B370B86E1DD3595A0022F54E /* LaunchScreen.storyboard in Resources */,
+				B370B86B1DD3595A0022F54E /* Assets.xcassets in Resources */,
+				B371FC301DDDE66200BA390D /* voice.bundle in Resources */,
+				B399A3FE1DD8AA8B001C5369 /* DINCond-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		364861DC251F1DAFBAE270A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFSport/Pods-MFSport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD83BC4C90C6A3CE2313692 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFSport/Pods-MFSport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D229F338A5867EE9EE79EA7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B370B8571DD3595A0022F54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B370B8811DD35F470022F54E /* MFSportMainViewController.m in Sources */,
+				B380957D1DDC9A960022CE5D /* MFSportSpeaker.m in Sources */,
+				B39298AE1DDB325800065DE9 /* MFSportSportingDateShowView.m in Sources */,
+				B350E1AF1DD4A89200D457FA /* MFSportPolylineModel.m in Sources */,
+				B370B8AE1DD369840022F54E /* MFSportTrackingModel.m in Sources */,
+				B35E7D2D1DD71FA6001CD3BD /* MFCircleAnimator.m in Sources */,
+				B38095781DDC75120022CE5D /* UIColor+CZAddition.m in Sources */,
+				B370B8631DD3595A0022F54E /* AppDelegate.m in Sources */,
+				B370B8B11DD36E1A0022F54E /* MFSportMapViewController.m in Sources */,
+				B3591A0A1DD9F71100638FE1 /* MFSportGPSButton.m in Sources */,
+				B39298B11DDB415100065DE9 /* MFSportSportingControlView.m in Sources */,
+				B370B8AB1DD3691E0022F54E /* MFSportSportingViewController.m in Sources */,
+				B350E1A91DD49E7E00D457FA /* MFSportTrackingLineModel.m in Sources */,
+				B370B8601DD3595A0022F54E /* main.m in Sources */,
+				B399A4011DD8C8E6001C5369 /* MFSportPopoverViewController.m in Sources */,
+				B35E7D301DD76FC8001CD3BD /* MFSportMapEffectView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B370B86C1DD3595A0022F54E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B370B86D1DD3595A0022F54E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B370B8701DD3595A0022F54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B370B8711DD3595A0022F54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B370B8731DD3595A0022F54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE3C688E1F9B67BDFD6CC3A /* Pods-MFSport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VQ9CJ2PL7T;
+				INFOPLIST_FILE = MFSport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.pzq.MFSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B370B8741DD3595A0022F54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D35365E72552F702BDDAB7C /* Pods-MFSport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VQ9CJ2PL7T;
+				INFOPLIST_FILE = MFSport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.pzq.MFSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B370B8561DD3595A0022F54E /* Build configuration list for PBXProject "MFSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B370B8701DD3595A0022F54E /* Debug */,
+				B370B8711DD3595A0022F54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B370B8721DD3595A0022F54E /* Build configuration list for PBXNativeTarget "MFSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B370B8731DD3595A0022F54E /* Debug */,
+				B370B8741DD3595A0022F54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B370B8531DD3595A0022F54E /* Project object */;
+}

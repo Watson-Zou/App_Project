@@ -1,0 +1,46 @@
+//
+//  XCF.pch
+//  XCFApp
+//
+//  Created by rkxt_ios on 15/12/1.
+//  Copyright © 2015年 ST. All rights reserved.
+//
+
+#ifndef XCF_pch
+#define XCF_pch
+
+#pragma mark - 配置文件
+#import "ConfigInfo.h"
+#import "ConfigUI.h"
+#import "ConfigConst.h"
+
+#pragma mark - 工具文件
+#import "XCFColor.h"
+#import "XCFSearchBar.h"
+#import "XCFBarButtonItem.h"
+#import "XCFTextField.h"
+#import "XCFAttributedDictionary.h"
+#import "XCFLog.h"
+
+#pragma mark - 类别文件
+#import "UILabel+XCF.h"
+#import "UIButton+XCF.h"
+#import "UIView+XCF.h"
+#import "UIColor+XCF.h"
+
+#import <UIKit+AFNetworking.h>
+
+#import "NSString+XCF.h"
+#import "NSObject+XCF.h"
+
+#pragma mark - Pod添加文件
+#import <AFNetworking.h>
+#import <MJExtension.h>
+#import <MobClick.h>
+#import <UMSocial.h>
+#import <YYWebImage.h>
+#import <LxDBAnything.h>
+#import <ReactiveCocoa.h>
+
+
+#endif /* XCF_pch */

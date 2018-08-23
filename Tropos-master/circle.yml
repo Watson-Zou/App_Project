@@ -1,0 +1,13 @@
+machine:
+  xcode:
+    version: "8.2.1"
+
+dependencies:
+  override:
+    - brew update
+    - bin/setup
+
+test:
+  override:
+    - bin/test
+    - bin/archive
